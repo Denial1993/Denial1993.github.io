@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Progress Bar HTML/CSS/Javascript 實例一</title>
+		<meta charset="utf-8">
+<!--		這行不知道是啥-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+      
+<!--        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/earlyaccess/notosanstc.css">-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Macondo">
+      
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/grid.css">
+		<link rel="stylesheet" type="text/css" href="css/nav.css">
+		<link rel="stylesheet" type="text/css" href="css/index_cover.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/hidden.css">
+		<link rel="stylesheet" type="text/css" href="css/ratio.css">
+		<link rel="stylesheet" type="text/css" href="css/card.css">
+		<link rel="stylesheet" type="text/css" href="css/player.css">
+		<link rel="stylesheet" type="text/css" href="css/footer.css">
+        <script src="https://kit.fontawesome.com/0328003174.js" crossorigin="anonymous"></script>
+		<script src="js/jquery-3.2.1.min.js"></script>
+<!--		<link rel="stylesheet" type="text/css" href="css/fontawesome.css">-->
+<!--		<link rel="stylesheet" type="text/css" href="css/font-awesome.css">-->
+	</head>
+	<body>
+      <header>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-list-item"><a href="https://www.facebook.com">Facebook</a></li>
+            <li class="nav-list-item"><a href="https://www.google.com">Google</a></li>
+            <li class="nav-list-item"><a href="https://progressbar.tw">Progressbar</a></li>
+          </ul>
+          <button type="button" class="nav-button" >
+            <i class="fas fa-bars"></i>
+          </button>
+        </nav>
+      </header>
+
+      <main>
+        <section>
+          <!-- 首頁標語 -->
+          <div class="row">
+            <div class="col-phone-100">
+              <div class="index-cover">
+                <div class="index-container">
+                  <h1 class="_title">首頁標語</h1>
+                  <div>
+                    <button type="button" class="btn btn_light">
+                      登入
+                    </button>
+                    
+                    <button type="button" class="btn btn_dark">
+                      註冊
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <!-- cards -->
+          <div class="container">
+            <div class="row">
+              <div class="col-phone-100 col-tablet-50">
+                <div class="card mdl-shadow--2dp">
+                  <div class="_image">
+                    <div class="ratio_3_2">
+                      <img class="ratio_content" src="https://images.pexels.com/photos/3635550/pexels-photo-3635550.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                    </div>
+                  </div>
+                  <div class="_content">
+                    <h4 class="_title">
+                      title title title title title title 
+                    </h4>
+                    <p class="_detail">
+                      detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail 
+                    </p>
+                  </div>
+                  <div class="_action">
+                    <div class="_action_content">
+                      <a class="_link" href="https://progressbar.tw">
+                        <button class="btn" type="button">閱讀更多</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-phone-100 col-tablet-50">
+                <div class="card mdl-shadow--2dp">
+                  <div class="_image">
+                    <div class="ratio_3_2">
+                      <img class="ratio_content" src="https://images.pexels.com/photos/1605481/pexels-photo-1605481.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                    </div>
+                  </div>
+                  <div class="_content">
+                    <h4 class="_title">
+                      title title title title title title 
+                    </h4>
+                    <p class="_detail">
+                      detail detail detail detail detail detail detail detail detail 
+                    </p>
+                  </div>
+                  <div class="_action">
+                    <div class="_action_content">
+                      <a class="_link" href="https://progressbar.tw">
+                        <button class="btn" type="button">閱讀更多</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <!-- video player -->
+          <div class="container">
+            <div class="row">
+              <div class="col-phone-100 col-tablet-67">
+                <div class="video-player">
+                  <div class="ratio_16_9">
+                    <iframe id="video_player" class="ratio_content" src="https://www.youtube.com/embed/p7ZsBPK656s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>  
+              </div>
+              <div class="col-phone-100 col-tablet-33">
+                <div class="video-list-container mdl-shadow--2dp">
+                  <div class="ratio_8_9">
+                    <ul class="ratio_content video-list ">
+                      <li class="_video" data-video="FkgWquwZr4Q">1. HONDA CBR650R</li>
+                      <li class="_video" data-video="IxQhn2ad7qc">2. APRILLIA RS660</li>
+                      <li class="_video" data-video="">3. YAMAHA YZF-R6</li>
+                      <li class="_video" data-video="">4. SUZUKI GSX-R600</li>
+                      <li class="_video" data-video="ZpsV5SGa5R4">5. Lost Sky - Need You [NCS Release]</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <script>
+            $(function(){
+               
+            })
+          </script>        
+        </section>
+        <section class="remove_padding">
+          <!-- imge links -->
+          <div class="container">
+            <div class="row">
+              <div class="col-phone-100 col-tablet-50 col-desktop-25" style="background-color: gray">
+                <a href="https://www.youtube.com/">
+                  <div class="ratio_3_2">
+                    <img class="ratio_content" src="https://images.pexels.com/photos/951336/pexels-photo-951336.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                  </div>
+                </a>
+              </div>
+              
+              <div class="col-phone-100 col-tablet-50 col-desktop-25" style="background-color: pink">
+                <a href="https://www.youtube.com/">
+                  <div class="ratio_3_2">
+                    <img class="ratio_content" src="https://images.pexels.com/photos/302280/pexels-photo-302280.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                  </div>
+                </a>
+              </div>
+              
+              <div class="col-phone-100 col-tablet-50 col-desktop-25 hidden-on-phone" style="background-color: purple">
+                <a href="https://www.youtube.com/">
+                  <div class="ratio_3_2">
+                    <img class="ratio_content" src="https://images.pexels.com/photos/57416/cat-sweet-kitty-animals-57416.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                  </div>
+                </a>
+              </div>
+              
+              <div class="col-phone-100 col-tablet-50 col-desktop-25 hidden-on-phone" style="background-color: black">
+                <a href="https://www.youtube.com/">
+                  <div class="ratio_3_2">
+                    <img class="ratio_content" src="https://images.pexels.com/photos/617278/pexels-photo-617278.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                  </div>
+                </a>
+              </div>
+              
+            </div>
+          </div>
+        </section>
+      </main>
+      
+      <footer>
+        <div class="container">
+        <!-- links -->
+          <div class="row">
+            <div class="col-phone-100 col-tablet-33" >
+              <div class="_container">
+                <ul class="footer-links">
+                  <li>link 1</li>
+                  <li>link 1</li>
+                  <li>link 1</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-phone-100 col-tablet-33" >
+              <div class="_container">
+                <ul class="footer-links">
+                  <li>link 1</li>
+                  <li>link 1</li>
+                  <li>link 1</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-phone-100 col-tablet-33" >
+              <div class="_container _center"> 
+                <div class="row">
+                  <div class="col-phone-100 col-phone-33" >
+                    <i class="fab fa-facebook "></i>
+                  </div>
+                  <div class="col-phone-100 col-phone-33" >
+                    <i class="fab fa-twitter-square"></i>
+                  </div>
+                  <div class="col-phone-100 col-phone-33" >
+                    <i class="fab fa-youtube"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+      <script>
+        $(function(){
+          /*video-player init*/
+          $("._video").click(function(){
+                var video = $(this).data("video");
+                var url ="https://www.youtube.com/embed/" + video ;
+                 $("#video-player").attr('src',url);
+               })
+          
+          /*nav init*/
+          $(".nav-button").click(function(){
+            $(".nav-list").slideToggle(400);
+          })
+        })
+      </script>
+      
+	</body>
+</html>

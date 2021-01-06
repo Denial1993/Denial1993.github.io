@@ -1,0 +1,45 @@
+.index-cover{
+/*            background: url("C:/Users/denial/Desktop/Code/Images/6435b6b4474dcbc990237c91c45f8d90868948c4.jpg");*/
+/*            background: url("C:/Users/denial/Desktop/Code/Images/pexels-photo-1525589.jpeg");*/
+            background: url("https://images.pexels.com/photos/3473569/pexels-photo-3473569.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+            background-position:center;
+            background-repeat: no-repeat;
+            background-size:cover;
+            height: 500px;
+            display:table;/*table一設下去就會有寬度的問題,所以下面多一行 width:100% */
+            width: 100%;
+          }
+          
+          .index-cover .index-container{
+            display: table-cell;
+            vertical-align: middle; 
+            text-align: center;
+          }
+          
+          .index-cover .index-container ._title{
+            margin: 0;
+            margin-bottom: 56px;
+            font-size: 72px;
+            color: #F8FAFF;
+            text-shadow: 0 2px 0 rgba(0,0,0,0.2);
+          }
+          
+          .index-cover .index-container .btn{
+            font-size: 24px;
+            background-color: white;
+            border: 0px;
+            border-radius: 12px;
+            margin: 0 8px;
+            padding: 4px 12px;
+            box-shadow: 0 1px 0px 0px rgba(0,0,0,0.24), 0 1.5px 0px 0px rgba(0,0,0,0.12),0 0 10px 5px silver;
+          }
+          /*.btn.btn_light 要連起來中間不能空白 */
+          .index-cover .index-container .btn.btn_light{
+            color: white;
+            background-color: #AAABD3;
+          }
+
+          .index-cover .index-container .btn.btn_dark{
+            color: white;
+            background-color: #353866;
+          }

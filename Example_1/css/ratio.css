@@ -1,0 +1,36 @@
+.ratio_3_2{
+  width: 100%;
+  padding-bottom: 66.67%;
+  position: relative;
+}
+
+.ratio_3_2 .ratio_content{
+  position: absolute; /*  relative 跟 absolute 會有關聯  ab 會聽re 的話*/
+  width: 100%;
+  height:100%; /*因為absolute跟relative的關西,所以 absolute裡面的長寬都不會超過 relative規定的max範圍 */
+
+}
+.ratio_16_9{
+  width: 100%;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.ratio_16_9 .ratio_content{
+  position: absolute; /*  relative 跟 absolute 會有關聯  ab 會聽re 的話*/
+  width: 100%;
+  height:100%; /*因為absolute跟relative的關西,所以 absolute裡面的長寬都不會超過 relative規定的max範圍 */
+
+}
+.ratio_8_9{
+  width: 100%;
+  padding-bottom: calc(112.5% + 8px);
+  position: relative;
+}
+
+.ratio_8_9 .ratio_content{
+  position: absolute; /*  relative 跟 absolute 會有關聯  ab 會聽re 的話*/
+  width: 100%;
+  height:100%; /*因為absolute跟relative的關西,所以 absolute裡面的長寬都不會超過 relative規定的max範圍 */
+
+}
